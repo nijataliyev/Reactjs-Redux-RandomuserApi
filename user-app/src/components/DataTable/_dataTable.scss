@@ -1,0 +1,48 @@
+.users__table {
+    width: 100%;
+  td,
+  th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+}
+.users__table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.users__table tr:hover {
+  background-color: #ddd;
+}
+
+.users__table {
+  th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #276678;
+    color: white;
+  }
+}
+
+.active{
+  background-color: red !important;
+}
+
+.newmodal__content{
+  display: flex;
+  flex-wrap: wrap;
+
+  .newmodal__left__content{
+    width: 50%;
+  }
+  .newmodal__right__content{
+    width: 50%;
+    label{
+      margin: 0;
+      font-weight:bolder;
+    }
+    p{
+      margin: 0;
+    }
+  }
+}
